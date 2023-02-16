@@ -1,0 +1,283 @@
+
+
+*{
+  font-family: "Poppins", sans-serif;
+}
+html,body{
+  scroll-behavior: smooth;
+  }
+
+
+:root {
+  --opavity-color: #666;
+  --background-color: #fafafa;
+  --color-ree: #f25454;
+}
+
+.carousel-indicators [data-bs-target] {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  text-indent: 0;
+}
+.p-text{
+  color: var(--opavity-color);
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+  color:var(--opavity-color);
+  transition: all 0.5;
+}
+.navbar-expand-lg .navbar-nav :hover .nav-link {
+  color: var(--color-ree);
+}
+.nav-icon {
+  width: 10%;
+}
+
+.nav-icon li a {
+  color:var(--opavity-color);
+  transition: all 0.5s;
+}
+.nav-icon li a:hover {
+  color: var(--color-ree);
+}
+
+
+.carousel-caption{
+  transform:translateY(-150%);
+  font-weight: 800;
+}
+.carousel-caption h1{
+  font-size: 4rem;
+  line-height: 1;
+}
+.caroul-control-1{
+
+  position:absolute;
+left:0;
+margin-top:1rem;
+display: block;
+}
+#caroul-control :hover{
+  background-color: white;
+
+}
+.caroul-control-1 :hover{
+  background-color: white;
+ 
+}
+
+.caroul-control{
+    position:absolute;
+  left:0;
+
+}
+.but-target {
+  position: absolute;
+  z-index: 3;
+  opacity: 0.7;
+  bottom: 2rem;
+  left: 50%;
+  margin-left: -16px;
+  text-align: center;
+  border: 1px solid white;
+  border-radius:40%;
+  color: #fff;
+  font-size: 0.1rem;
+  width: 0.1rem;
+  height:3rem;
+  width: 10px;
+  height: 50px;
+  line-height:1rem;
+  font-size:0.5rem;
+}
+.but-target .animated {
+  position: relative;
+  animation: target 1s infinite;
+}
+
+@keyframes target {
+  0% {
+    top:-20px;
+    opacity: 0;
+  }
+  100% {
+    top:22px;
+    opacity: 1;
+  }
+}
+
+.title h2{
+  font-size: 3rem;
+  font-weight: 700;
+  top:2rem;
+}
+.title h3{
+  font-size: 5rem;
+  font-weight: 800;
+  color:#f4f4f4;
+}
+
+.text_pra{
+  width: 70%;
+}
+.title-p {
+  color: var(--opavity-color);
+}
+#team span {
+  color: var(--opavity-color);
+}
+.titl-about h2 {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.titl-about h3 {
+  font-size: 3rem;
+
+}
+.title-sac .div {
+  width: 40px;
+  height: 2px;
+
+  transition: width 0.7s ease-in-out;
+}
+
+.title-sac:hover .div {
+  width: 80px;
+}
+
+.icon-siting{
+  display:block;
+  width:2.50rem;
+  padding:0.50rem ;
+  background-color:black;  
+  position:fixed;
+  top:15rem;
+
+z-index:1;
+border-radius:0.25rem;
+}
+
+.imge-tem img {
+  transition: all 0.7s;
+}
+
+.progress {
+  height: 0.3rem;
+}
+.progress-bar {
+  background-color: var(--color-ree);
+}
+.cont-img .title h5 {
+  transition: all 0.7s;
+}
+.numb-modles{
+  
+  background-color: brown;
+}
+.layars {
+  background-color: rgba(242, 84, 84, 0.85);
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  opacity: 0;
+
+  transition: all 0.7s;
+}
+.cont-img:hover .layars {
+  opacity: 1;
+}
+.imge-tem:hover img {
+  transform: scale(1.2);
+}
+
+.cont-img:hover .title h5 {
+  color: rgba(242, 84, 84, 0.85);
+}
+
+.qustion h2 {
+  line-height: 3.2rem;
+  font-weight: 400;
+}
+.but .but-1 {
+  background-color: var(--color-ree);
+  transition: all 0.5s;
+}
+.but:hover {
+  opacity: 0.9;
+}
+
+#projects {
+  background-color: var(--background-color);
+}
+.cont-project .iconss {
+  color: var(--color-ree);
+}
+.cont-project h5 {
+  color: black;
+  transition: all 0.3s;
+}
+.cont-project:hover h5 {
+  color: var(--color-ree);
+}
+.carousel-indicators p {
+  color: var(--opavity-color);
+}
+.carousel-inner p {
+  color: var(--opavity-color);
+}
+.carousel-indicators [data-bs-target] {
+  text-indent: 0;
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+}
+
+.cont-email a {
+  color: var(--opavity-color);
+  text-decoration-line: none;
+  transition: all 0.3;
+}
+
+.cont-email a:hover {
+  color: var(--color-ree);
+}
+#contact{
+  background-color: #fafafa;
+}
+
+.end {
+  background-image: url(../images/WhatsApp\ Image\ 2023-01-28\ at\ 11.11.24\ PM.jpeg);
+  width: 100%;
+  background-size: contain;
+  background-position: center center;
+}
+
+.text-ends p {
+  color: var(--opavity-color);
+}
+.icon-end {
+  height: 3rem;
+  width: 3rem;
+  transform: translateY(50%);
+  background: rgba(242, 84, 84, 0.5);
+  transition: all 0.4s;
+}
+.icon-end:hover {
+  background: var(--color-ree);
+}
+.stale .icos li a {
+  color: white;
+  transition: all 0.7s;
+}
+.stale .icos li a:hover {
+  color: var(--color-ree);
+}
+.end1 .angor {
+  color: white;
+  transition: all 0.7s;
+}
+.end1 .angor:hover {
+  color: var(--color-ree);
+}
